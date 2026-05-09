@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- AUTH SECTION -->
+    <div id="auth-section" class="login-container">
+        <div class="login-form">
+            <h2>Welcome Back</h2>
+            <p>Please enter your details</p>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+
+            <!-- IMPORTANT: type="button" -->
+            <button type="button" class="login-btn" onclick="login()">Login</button>
+            <br>
+            
+                <button type="button" class="login-btn" onclick="register()">Register</button>
+           
+            <div class="footer-links">
+                <a href="#">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- APP SECTION -->
+    <div id="app-section" class="hidden">
+        <h2>Your Activity</h2>
+        <p>Score: <span id="score">0</span></p>
+
+        <button onclick="updateActivity()">Increase Activity</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
