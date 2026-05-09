@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* MAIN CONTAINER */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+/* LEFT SIDE */
+.profile-left {
+    width: 25%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+.profile-left h2 {
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* BOX */
+.profile-box {
+    background: #f0fdf5;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* RIGHT SIDE */
+.profile-right {
+    width: 75%;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1dbf73;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* DELETE BUTTON */
+.delete-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #e74c3c;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+button:hover {
+    background: #17a865;
+}
