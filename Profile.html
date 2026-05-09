@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+<div class="profile-container">
+
+    <!-- LEFT SIDE -->
+    <div class="profile-left">
+        <h2 id="email"></h2>
+        <p class="tagline">Freelancer | Skill Learner</p>
+
+        <div class="profile-box">
+            <p><strong>Activity Score:</strong></p>
+            <h3 id="score"></h3>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+
+<button class="delete-btn" onclick="deleteAccount()">Delete Account</button>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="profile-right">
+        <h2>Your Dashboard</h2>
+
+        <div class="card">
+            <h3>Skills</h3>
+            <p>Web Development, Video Editing</p>
+        </div>
+
+        <div class="card">
+            <h3>Projects</h3>
+            <p>No projects added yet.</p>
+        </div>
+
+        <div class="card">
+            <h3>About</h3>
+            <p>This is your Fiverr-style profile section.</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="profile.js"></script>
+</body>
+</html>
